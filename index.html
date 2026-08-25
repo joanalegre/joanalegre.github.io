@@ -23,7 +23,15 @@
     <main class="page-shell">
       <section class="profile-grid" aria-label="Profile">
         <aside class="profile-card">
-          <div class="portrait" aria-hidden="true">JA</div>
+          <div class="portrait">
+            <span class="portrait-initials" aria-hidden="true">JA</span>
+            <img
+              src="assets/profile.jpg"
+              alt="Photo of Joan Alegre Canton"
+              onload="this.parentElement.classList.add('has-photo')"
+              onerror="this.remove()"
+            >
+          </div>
           <h1>Joan Alegre Canton</h1>
           <p class="role">Economics Job Market Candidate, 2026-2027</p>
           <p class="affiliation">Department of Economics<br>Universidad Carlos III de Madrid</p>
@@ -44,7 +52,7 @@
             estimation split with the smallest worst-case local bias from calibration error.
           </p>
           <div class="button-row" aria-label="Main links">
-            <a class="button button-primary" href="draft.pdf">Job Market Paper</a>
+            <a class="button button-primary" href="AlegreJMP.pdf">Job Market Paper</a>
             <a class="button" href="research.html">Research</a>
             <a class="button" href="cv.html">CV</a>
           </div>
