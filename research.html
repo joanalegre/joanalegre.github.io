@@ -6,85 +6,65 @@
     <title>Research | Joan Alegre Canton</title>
     <meta
       name="description"
-      content="Research by Joan Alegre Canton, economics job market candidate at Universidad Carlos III de Madrid."
+      content="Research by Joan Alegre Canton, Ph.D. candidate in Economics at Universidad Carlos III de Madrid."
     >
+    <meta name="robots" content="index, follow">
     <link rel="stylesheet" href="assets/site.css">
   </head>
   <body>
-    <header class="site-header">
-      <a class="site-title" href="index.html">Joan Alegre Canton</a>
-      <nav class="site-nav" aria-label="Primary navigation">
-        <a href="index.html">Home</a>
-        <a href="research.html" aria-current="page">Research</a>
-        <a href="cv.html">CV</a>
+    <a class="skip-link" href="#main-content">Skip to content</a>
+
+    <main class="site-shell subpage" id="main-content">
+      <nav class="top-links" aria-label="Page navigation">
+        <a href="index.html">[Home]</a>
+        <a href="CV%20Joan.pdf">[Curriculum Vitae]</a>
       </nav>
-    </header>
 
-    <main class="page-shell narrow">
-      <section class="page-title">
-        <p class="eyebrow">Research</p>
-        <h1>Working Papers</h1>
+      <header class="page-heading">
+        <h1>Research</h1>
+        <p>Joan Alegre Canton</p>
+      </header>
+
+      <hr>
+
+      <section class="section" aria-labelledby="research-jmp-heading">
+        <h2 id="research-jmp-heading">Job Market Paper</h2>
+        <article class="paper-item">
+          <h3>
+            <span class="paper-bullet" aria-hidden="true">&bull;</span>
+            <a href="AlegreJMP.pdf">Choosing What to Calibrate and What to Estimate in Structural Models</a>
+          </h3>
+          <p class="paper-actions"><a href="AlegreJMP.pdf">[Paper]</a></p>
+
+          <h4>Abstract</h4>
+          <p class="abstract-copy">
+            Structural models often fix (calibrate) some parameters and estimate the rest, but this
+            calibration-estimation partition is usually chosen by convention. This paper treats that choice as an
+            econometric partition-selection problem. For each admissible partition, I construct a scalar
+            sensitivity statistic measuring the local response of a target object, such as a policy effect, welfare
+            measure, impulse response, or treatment effect, to perturbations of the calibrated parameters.
+          </p>
+          <p class="abstract-copy">
+            The selected partition minimizes this statistic and therefore minimizes worst-case local bias from
+            calibration errors. I first illustrate the decision problem in two canonical examples. I then apply it
+            to the New Keynesian model of Nakamura and Steinsson (2018), where the partition choice has large
+            implications for credibility: some partitions remain reliable under sizeable miscalibrations, whereas
+            others generate large bias from small calibration errors.
+          </p>
+          <p class="abstract-copy">
+            The procedure requires only local derivatives, avoids repeated re-estimation, and applies to a broad
+            class of structural models.
+          </p>
+          <p class="paper-meta">
+            <strong>Keywords:</strong> Model selection; structural parameters; sensitivity analysis; partial identification<br>
+            <strong>JEL:</strong> C10; C12; C16
+          </p>
+        </article>
       </section>
 
-      <article class="research-item">
-        <div class="research-header">
-          <div>
-            <h2>Choosing What to Calibrate and What to Estimate in Structural Models</h2>
-            <p class="paper-status">Job Market Paper</p>
-          </div>
-          <a class="button button-primary" href="AlegreJMP.pdf">PDF</a>
-        </div>
-
-        <h3>Abstract</h3>
-        <p>
-          Structural models often fix (calibrate) some parameters and estimate the rest, but this
-          calibration-estimation partition is usually chosen by convention. This paper treats that choice
-          as an econometric partition-selection problem. For each admissible partition, we construct a
-          scalar sensitivity statistic measuring the local response of a target object, such as a policy
-          effect, welfare measure, impulse response, or treatment effect, to perturbations of the
-          calibrated parameters.
-        </p>
-        <p>
-          The selected partition minimizes this statistic and therefore minimizes worst-case local bias
-          from calibration errors. I first illustrate the decision problem in two canonical examples. I then
-          apply it to the New Keynesian model of Nakamura and Steinsson (2018), where the partition choice
-          has large implications for credibility: some partitions remain reliable under sizeable
-          miscalibrations, whereas others generate large bias from small calibration errors.
-        </p>
-        <p>
-          The procedure requires only local derivatives, avoids repeated re-estimation, and applies to a
-          broad class of structural models.
-        </p>
-
-        <dl class="details-list">
-          <div>
-            <dt>Keywords</dt>
-            <dd>Model selection; structural parameters; sensitivity analysis; partial identification</dd>
-          </div>
-          <div>
-            <dt>JEL</dt>
-            <dd>C10; C12; C16</dd>
-          </div>
-        </dl>
-      </article>
-
-      <section class="content-band compact">
-        <div class="section-heading">
-          <p class="eyebrow">Figures</p>
-          <h2>Selected Material</h2>
-        </div>
-        <div class="figure-links">
-          <a href="AS07_analytical_conservative_styled.png">Analytical sensitivity figure</a>
-          <a href="gamma_worst_case_information_effect.pdf">Worst-case information effect</a>
-          <a href="histograms_by_n_epsilon_main_paper_style_3x2_common_domain.pdf">Simulation histograms</a>
-          <a href="ddc_counterfactual_ccp_percent_states.pdf">Dynamic discrete choice counterfactuals</a>
-        </div>
-      </section>
+      <footer class="site-footer">
+        <p>&copy; 2026 Joan Alegre Canton</p>
+      </footer>
     </main>
-
-    <footer class="site-footer">
-      <span>© 2026 Joan Alegre Canton</span>
-      <span>The views expressed here are my own.</span>
-    </footer>
   </body>
 </html>
