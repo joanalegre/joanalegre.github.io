@@ -2,11 +2,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://joanalegre.github.io/</loc>
-    <lastmod>2026-09-09</lastmod>
+    <lastmod>2026-09-17</lastmod>
   </url>
   <url>
     <loc>https://joanalegre.github.io/research.html</loc>
-    <lastmod>2026-09-09</lastmod>
+    <lastmod>2026-09-17</lastmod>
   </url>
   <url>
     <loc>https://joanalegre.github.io/cv.html</loc>
@@ -17,6 +17,9 @@
   </url>
   <url>
     <loc>https://joanalegre.github.io/BayesianPartitionSelection.pdf</loc>
+  </url>
+  <url>
+    <loc>https://joanalegre.github.io/Macro_Correct_Specification.pdf</loc>
   </url>
   <url>
     <loc>https://joanalegre.github.io/CV%20Joan.pdf</loc>
